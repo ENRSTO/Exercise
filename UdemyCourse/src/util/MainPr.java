@@ -25,6 +25,7 @@ public class MainPr {
 		movimenti.add(new Cnmop("ART3", "B02", "026", "OP2", "001", "1"));
 		movimenti.add(new Cnmop("ART3", "B02", "200", "OP2", "001", "1"));
 		movimenti.add(new Cnmop("ART3", "B02", "300", "OP2", "001", "1"));
+		movimenti.add(new Cnmop("ART7", "B02", "300", "OP2", "001", "1"));
 		
 		Map <String, Map<String, Integer>> resultMap = UtilMaterial.populateMap(movimenti);
 		System.out.println(resultMap);
