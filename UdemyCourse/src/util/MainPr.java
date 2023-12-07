@@ -28,6 +28,8 @@ public class MainPr {
 		movimenti.add(new Cnmop("ART7", "B02", "300", "OP2", "001", "1"));
 		movimenti.add(new Cnmop("ART8", "B02", "300", "OP2", "001", "1"));
 		
+		// aggiunti elemnenti
+		
 		Map <String, Map<String, Integer>> resultMap = UtilMaterial.populateMap(movimenti);
 		System.out.println(resultMap);
 		
