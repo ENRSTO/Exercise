@@ -31,26 +31,6 @@ public class UtilMaterial {
 	     }
   //
 	
-	
-//	public static List<String> trovaMaterialiDuplicati(List<String> materiali) {
-//        List<String> materialiDuplicati = new ArrayList<>();
-//        Map<String, Integer> conteggioMateriali = new HashMap<>();
-//
-//        // Conta quante volte ogni materiale appare nella lista
-//        for (String materiale : materiali) {
-//            conteggioMateriali.put(materiale, conteggioMateriali.getOrDefault(materiale, 0) + 1);
-//        }
-//
-//        // Aggiungi i materiali duplicati alla lista di output
-//        for (Map.Entry<String, Integer> entry : conteggioMateriali.entrySet()) {
-//            if (entry.getValue() > 1) {
-//                materialiDuplicati.add(entry.getKey());
-//            }
-//        }
-//        return materialiDuplicati;
-//    }
-    
-    
     public static Map <String, Map<String, Cnmop>> trovaMaterialiDuplicatiAggraffata (List<Cnmop> materiali){
     	
     	 Map<String, Map<String, Cnmop>> bolleArticoli = new HashMap<>();

@@ -13,7 +13,7 @@ public class PredicateAndConsumerExample {
 
     static Predicate<Student> p3 = s -> s.getGender().equals("female");
     
-    BiPredicate<Integer, Double> bipredicate = (gradeLevel, gpa) -> gradeLevel >= 3 && gpa >= 3.9; 
+    static BiPredicate<Integer, Double> bipredicate = (gradeLevel, gpa) -> gradeLevel >= 3 && gpa >= 3.9; 
     
     
     
